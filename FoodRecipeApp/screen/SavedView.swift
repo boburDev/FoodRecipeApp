@@ -32,7 +32,7 @@ struct SavedView: View {
                                 .background(
                                     ZStack{
                                         Rectangle().foregroundColor(Color.white)
-                                            .shadow(color: .gray.opacity(0.2), radius: 10, x: 0.0, y: 0.0)
+                                            .shadow(color: Color.gray.opacity(0.2), radius: 10, x: 0.0, y: 0.0)
                                         Rectangle().strokeBorder(Color.black.opacity(0.13), lineWidth: 1.25)
                                     }
                                 )//: HSTACK BACKGROUND
@@ -45,7 +45,7 @@ struct SavedView: View {
                                 .background(
                                     ZStack{
                                         Rectangle().foregroundColor(Color.white)
-                                            .shadow(color: .gray.opacity(0.2), radius: 10, x: 0.0, y: 0.0)
+                                            .shadow(color: Color.gray.opacity(0.2), radius: 10, x: 0.0, y: 0.0)
                                         Rectangle().strokeBorder(Color.black.opacity(0.13), lineWidth: 1.25)
                                     }
                                 )//: HSTACK BACKGROUND
@@ -59,7 +59,7 @@ struct SavedView: View {
                                     .background(
                                         ZStack{
                                             Rectangle().foregroundColor(Color.white)
-                                                .shadow(color: .gray.opacity(0.2), radius: 10, x: 0.0, y: 0.0)
+                                                .shadow(color: Color.gray.opacity(0.2), radius: 10, x: 0.0, y: 0.0)
                                             Rectangle().strokeBorder(Color.black.opacity(0.13), lineWidth: 1.25)
                                         }
                                     )
@@ -118,7 +118,7 @@ struct ViewFoods: View{
                         Image(systemName: "star.fill")
                         Image(systemName: "star.fill")
                         Image(systemName: "star.fill")
-                        Image(systemName: "star.fill").foregroundColor(.gray.opacity(0.7))
+                        Image(systemName: "star.fill").foregroundColor(Color.gray.opacity(0.7))
                     }.foregroundColor(Color(#colorLiteral(red: 0.3691215515, green: 0.6315287352, blue: 0.4989493489, alpha: 1))).font(.system(size: 11))
                     
                     
@@ -135,7 +135,7 @@ struct ViewFoods: View{
                     .background(
                         ZStack{
                             Rectangle().foregroundColor(Color.white)
-                                .shadow(color: .gray.opacity(0.2), radius: 10, x: 0.0, y: 0.0)
+                                .shadow(color: Color.gray.opacity(0.2), radius: 10, x: 0.0, y: 0.0)
                             Rectangle().strokeBorder(Color.black.opacity(0.13), lineWidth: 1.25)
                         }
                     )

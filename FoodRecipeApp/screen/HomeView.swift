@@ -56,7 +56,7 @@ struct HomeView: View {
                             .background(
                                 Color.white
                             )
-                            .shadow(color: .gray.opacity(0.1), radius: 10, x: 0.0, y: 0.0)
+                            .shadow(color: Color.gray.opacity(0.1), radius: 10, x: 0.0, y: 0.0)
                             HStack{
                                 Image(systemName: "slider.horizontal.3")
                                     .foregroundColor(Color(#colorLiteral(red: 0.3650282621, green: 0.6236766577, blue: 0.4994382858, alpha: 1)))
@@ -65,7 +65,7 @@ struct HomeView: View {
                             .background(
                                 Color.white
                             )
-                            .shadow(color: .gray.opacity(0.1), radius: 10, x: 0.0, y: 0.0)
+                            .shadow(color: Color.gray.opacity(0.1), radius: 10, x: 0.0, y: 0.0)
                         }
                         .padding(.top, 10)
                         //: SEARCH
@@ -159,7 +159,7 @@ struct PopRecipe: View{
                                 Image(systemName: "star.fill")
                                 Image(systemName: "star.fill")
                                 Image(systemName: "star.fill")
-                                Image(systemName: "star.fill").foregroundColor(.gray.opacity(0.7))
+                                Image(systemName: "star.fill").foregroundColor(Color.gray.opacity(0.7))
                             }.foregroundColor(Color(#colorLiteral(red: 0.3691215515, green: 0.6315287352, blue: 0.4989493489, alpha: 1))).font(.system(size: 11))
                             
                             

@@ -119,7 +119,7 @@ struct InsideView: View {
                     .padding()
                     .background(
                         Rectangle().foregroundColor(.white)
-                            .shadow(color: .gray.opacity(0.4), radius: 10, x: 0.0, y: 0.0)
+                            .shadow(color: Color.gray.opacity(0.4), radius: 10, x: 0.0, y: 0.0)
                     )
                     .padding()
                     .padding(.top,80)
@@ -185,7 +185,7 @@ struct InsideView: View {
                     .padding()
                     .background(
                         Rectangle().foregroundColor(.white)
-                            .shadow(color: .gray.opacity(0.4), radius: 10, x: 0.0, y: 0.0)
+                            .shadow(color: Color.gray.opacity(0.4), radius: 10, x: 0.0, y: 0.0)
                     )
                     .padding(.horizontal)
                     
@@ -259,7 +259,7 @@ struct InsideView: View {
                     }.padding()
                     .background(
                         Rectangle().foregroundColor(.white)
-                            .shadow(color: .gray.opacity(0.4), radius: 10, x: 0.0, y: 0.0)
+                            .shadow(color: Color.gray.opacity(0.4), radius: 10, x: 0.0, y: 0.0)
                     )
                     .padding()
                     
